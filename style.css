@@ -193,8 +193,120 @@ footer {
     margin-top: 50px;
 }
 
+@media only screen and (max-width:992px) and (min-width:768px) {
 
-@media only screen and (max-width:767px) {
+    /* ------------ header ------------ */
+
+
+    .greatest-game {
+        width: 90%;
+        height: 398px;
+        margin: 50px 50px 0 50px;
+        border-radius: 30px;
+    }
+
+    .greatest-game-title {
+        padding: 61px 0 61px 60px;
+        margin-right: 5px;
+    }
+
+    .greatest-game-title a {
+        padding: 12px;
+    }
+
+    .greatest-game-title h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .greatest-game-img {
+        margin: 0;
+        display: flex;
+    }
+
+    .greatest-game-img img {
+        width: 323px;
+        height: 340px;
+        margin: 0px;
+        margin: 58px 17px 0 0;
+    }
+
+    .greatest-game-title p span {
+        display: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .greatest-game-title p {
+        margin: 10px 0 40px 0;
+    }
+
+    /* ----------- main ------------- */
+
+
+    .match-tetels {
+        display: inline;
+    }
+
+    .match-item {
+        background: none;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 90%;
+        column-gap: 20px;
+        margin-right: 0;
+        height: 47px;
+    }
+
+    .top-ancor {
+        padding: 17px 15px;
+    }
+
+    .last-ancor {
+        padding: 17px 60px;
+    }
+
+    .la {
+        padding: 17px 80px;
+    }
+
+    .full-match {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 20px;
+    }
+
+    .last-ancor {
+        border: 1px solid rgba(0, 0, 0, 0.262);
+    }
+
+    footer {
+        height: 345px;
+    }
+
+    .footer-area {
+        padding-bottom: 0;
+    }
+
+    .footer-item h2 {
+        margin: 70px 0 60px 0;
+    }
+
+    .footer-detels {
+        grid-template-columns: repeat(4, 1fr);
+        margin: 50px 100px;
+    }
+
+    .footer-detels a {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
     .greatest-game {
         margin: 44px 20px 0 20px;
         display: inline;
@@ -290,5 +402,3 @@ footer {
     }
 
 }
-
-@media only screen and (min-width: 767px) and (max-width:992px) {}
