@@ -193,6 +193,20 @@ footer {
     margin-top: 50px;
 }
 
+.cosel {
+    margin-top: 35px;
+}
+
+.cosel-icon {
+    font-size: 30px;
+    color: white;
+}
+
+.cosel a {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 @media only screen and (max-width:992px) and (min-width:768px) {
 
     /* ------------ header ------------ */
@@ -282,8 +296,10 @@ footer {
         border: 1px solid rgba(0, 0, 0, 0.262);
     }
 
+    /* -------- footer ------ */
+
     footer {
-        height: 345px;
+        height: 390px;
     }
 
     .footer-area {
@@ -297,11 +313,16 @@ footer {
     .footer-detels {
         grid-template-columns: repeat(4, 1fr);
         margin: 50px 100px;
+        margin-bottom: 30px;
     }
 
     .footer-detels a {
         font-weight: 500;
         font-size: 16px;
+    }
+
+    .cosel {
+        margin-top: 10px;
     }
 
 }
@@ -383,7 +404,8 @@ footer {
 
     footer {
         width: 100%;
-        height: 470px;
+        height: 550px;
+
     }
 
     .footer-detels a {
@@ -399,6 +421,10 @@ footer {
     .last-ancor {
         border: 1px solid rgba(0, 0, 0, 0.188);
         padding: 20px 70px;
+    }
+
+    .cosel {
+        margin-top: 125px;
     }
 
 }
